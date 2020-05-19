@@ -1,0 +1,9 @@
+.red {
+    background-color: Red;
+    padding: 10px;
+    border: 1px solid;
+    color: black;
+    cursor: pointer;
+}
+
+.red:hover{background-color: salmon;}

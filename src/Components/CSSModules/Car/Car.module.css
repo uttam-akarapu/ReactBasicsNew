@@ -1,0 +1,11 @@
+.blue {
+    background-color: blue;
+    padding: 10px;
+    border: 1px solid;
+    color: black;
+    cursor: pointer;
+}
+
+.blue:hover{
+    background-color: lightblue;
+}
