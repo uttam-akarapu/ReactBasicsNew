@@ -16,6 +16,9 @@ import CounterComponent from "../RenderPropsDemo/CounterComponent";
 import UserC from "../ContextDemo/UserC";
 import GetList from "../HTTPDemo/GetList";
 import PostFormList from "../HTTPDemo/PostFormList";
+import ClassCounter from "../HooksDemo/ClassCounter";
+import HookCounter from "../HooksDemo/HookCounter";
+import HookCounterThree from "../HooksDemo/HookCounterThree";
 
 
 import './App.css';
@@ -67,6 +70,9 @@ class App extends Component {
 
        <GetList/>
        <PostFormList/>
+       <ClassCounter/>
+       <HookCounter/>
+       <HookCounterThree/>
       
          </div>
     );
