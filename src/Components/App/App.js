@@ -16,11 +16,12 @@ import CounterComponent from "../RenderPropsDemo/CounterComponent";
 import UserC from "../ContextDemo/UserC";
 import GetList from "../HTTPDemo/GetList";
 import PostFormList from "../HTTPDemo/PostFormList";
-import ClassCounter from "../HooksDemo/useStateClassCounter";
-import HookCounter from "../HooksDemo/useStateHookCounter";
-import HookCounterThree from "../HooksDemo/useStateHookCounterThree";
-import HookCounterFour from "../HooksDemo/useStateHookCounterFour";
-import useEffectCounterDemo from "../HooksDemo/useEffectCounterDemo";
+import ClassCounter from "../HooksDemo/ClassCounter";
+import HookCounter from "../HooksDemo/HookCounter";
+import HookCounterThree from "../HooksDemo/HookCounterThree";
+import EffectCounterDemo from "../useEffectHookDemo/EffectCounterDemo";
+import HookCounterFour from "../HooksDemo/HookCounterFour";
+
 
 
 import './App.css';
@@ -76,7 +77,7 @@ class App extends Component {
        <HookCounter/>
        <HookCounterThree/>
        <HookCounterFour/>
-       <useEffectCounterDemo/>
+       <EffectCounterDemo/>
       
          </div>
     );
