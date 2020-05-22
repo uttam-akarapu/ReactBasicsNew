@@ -21,6 +21,9 @@ import HookCounter from "../HooksDemo/HookCounter";
 import HookCounterThree from "../HooksDemo/HookCounterThree";
 import EffectCounterDemo from "../useEffectHookDemo/EffectCounterDemo";
 import HookCounterFour from "../HooksDemo/HookCounterFour";
+import HookMouse from "../useEffectHookDemo/HookMouse";
+import UnMountDemo from "../useEffectHookDemo/UnMountDemo";
+import DataFetching from "../APIFetchUseEffect/DataFetching";
 
 
 
@@ -78,6 +81,9 @@ class App extends Component {
        <HookCounterThree/>
        <HookCounterFour/>
        <EffectCounterDemo/>
+      
+       <UnMountDemo/>
+       <DataFetching/>
       
          </div>
     );

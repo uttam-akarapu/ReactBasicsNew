@@ -15,8 +15,8 @@ const EffectCounterDemo = () => {
             <p>useEffect Demo</p>
             <ol>
                 <li>useEffect will always run after each render.</li>
-                <li>All the functionalities inside uesEffect will always render eventhough its not necessary , which can be avoided by the 2nd parameter in useEffect</li>
-                <li></li>
+                <li>All the functionalities inside useEffect will always render even though its not necessary , which can be avoided by the 2nd parameter in useEffect</li>
+                <li>If you want to execute useEffect only once which is what <b>componentDidMount</b> does , just mention an empty array as the second parameter in useEffect method.</li>
             </ol>
             <p> Check the browser title to see useEffect functionality , i am updating browser title inside useEffect , so every render , useEffect runs .</p>
             <button onClick={() => setCount(count + 1)}>Count {count}</button>
